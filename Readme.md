@@ -40,8 +40,16 @@ Project assigned by Dr Neeraj Gupta for course DBMS(3<sup>rd</sup> sem).
         <td>Contains scripts to create database</td>
     </tr>
     <tr>
-        <td><strong>Main.py</strong></td>
-        <td>Script to configure database and launch application</td>
+        <td><strong>setup.py</strong></td>
+        <td>Script to download and install all the dependencies</td>
+    </tr>
+    <tr>
+        <td><strong>Main.ipynb</strong></td>
+        <td>Python notebook to setup database</td>
+    </tr>
+    <tr>
+        <td><strong>requirements.txt</strong></td>
+        <td>List of Python dependencies</td>
     </tr>
 </table>
 

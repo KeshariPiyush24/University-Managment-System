@@ -1,4 +1,6 @@
 .vscode
 .cph
+.ipynb_checkpoints
+*checkpoint*.ipynb
 *.drawio
 Drivers
