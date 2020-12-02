@@ -24,16 +24,8 @@ Project assigned by Dr Neeraj Gupta for course DBMS(3<sup>rd</sup> sem).
         <th>Description</th>
     </tr>
     <tr>
-        <td><strong>Assets</strong></td>
-        <td>To store icons and images</td>
-    </tr>
-    <tr>
         <td><strong>Backend</strong></td>
-        <td>Codes to establish and maintain backend server</td>
-    </tr>
-    <tr>
-        <td><strong>Frontend</strong></td>
-        <td>App for interface</td>
+        <td>Contains scripts to establish and maintain backend server</td>
     </tr>
     <tr>
         <td><strong>SQL Scripts</strong></td>
@@ -41,15 +33,19 @@ Project assigned by Dr Neeraj Gupta for course DBMS(3<sup>rd</sup> sem).
     </tr>
     <tr>
         <td><strong>setup.py</strong></td>
-        <td>Script to download and install all the dependencies</td>
+        <td>Script to setup database</td>
     </tr>
     <tr>
         <td><strong>Main.ipynb</strong></td>
-        <td>Python notebook to setup database</td>
+        <td>Jupyter notebook of queries</td>
     </tr>
     <tr>
         <td><strong>requirements.txt</strong></td>
         <td>List of Python dependencies</td>
+    </tr>
+    <tr>
+        <td><strong>ErDiagram.svg</strong></td>
+        <td>ER diagram of database structure</td>
     </tr>
 </table>
 
