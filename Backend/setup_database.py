@@ -2,7 +2,7 @@ import mysql.connector
 import os
 import re
 
-c = [re.findall(r".*='(.*)'.?", line) for line in open('Backend\config.txt')]
+c = [re.findall(r".*='(.*)'.?", line) for line in open('.\config.txt')]
 h = c[0][0]
 u = c[1][0]
 p = c[2][0]
