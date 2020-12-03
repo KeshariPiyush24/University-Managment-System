@@ -23,6 +23,8 @@ non_dependent_entity = ["Students", "Courses",
                         "Clubs", "Departments", "Login"]
 dependent_entity = [script for script in [x.replace(".sql", "") for x in os.listdir(
     "./SQL Scripts/Create Tables")] if script not in non_dependent_entity]
+
+relations = os.listdir("./SQL Scripts/Create Relationships")
 dependent_entity.sort()
 
 
@@ -36,7 +38,7 @@ def create_non_dependent_tables():
             mycursor.execute(f.read())
             print(f"successfully created {script} table.......:)\n")
     mycursor.close()
-    print("Completed successfully")
+    print("Completed successfully\n")
 
 
 def create_dependent_tables():
@@ -49,10 +51,24 @@ def create_dependent_tables():
             mydb.cursor().execute(f.read())
             print(f"successfully created {script} table.......:)\n")
     mycursor.close()
-    print("Completed successfully")
+    print("Completed successfully\n")
+
+
+def create_relation_tables():
+    mydb = mysql.connector.connect(
+        host=h, user=u, password=p, database="ums")
+    mycursor = mydb.cursor()
+    for script in relations:
+        with open("./SQL Scripts/Create Relationships/"+script) as f:
+            print(f"Creating {script} table...")
+            mydb.cursor().execute(f.read())
+            print(f"successfully created {script} table.......:)\n")
+    mycursor.close()
+    print("Completed successfully\n")
 
 
 if __name__ == '__main__':
     create_schema()
     create_non_dependent_tables()
     create_dependent_tables()
+    create_relation_tables()
