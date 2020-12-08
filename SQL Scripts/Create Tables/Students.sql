@@ -1,16 +1,11 @@
-CREATE TABLE STUDENTS
-(
-    Student_ID NUMERIC(8) PRIMARY KEY,
-    F_NAME VARCHAR(255),
-    L_NAME VARCHAR(255),
-    Date_Of_Birth DATE,
-    Gender CHAR(1),
-    Phone NUMERIC(10) UNIQUE ,
-    Email VARCHAR(255) UNIQUE,
-    House_Number VARCHAR(255),
-    City VARCHAR(255),
-    Street VARCHAR(255),
-    Town VARCHAR(255),
-    Semester NUMERIC,
-    CPI DECIMAL(3, 2)
-);
+CREATE TABLE STUDENTS(STUDENT_ID NUMERIC(8) PRIMARY KEY,F_NAME VARCHAR(255),L_NAME VARCHAR(255),Date_Of_Birth DATE,Gender CHAR(1),Phone NUMERIC(10) UNIQUE ,Email VARCHAR(255) UNIQUE,House_Number VARCHAR(255),City VARCHAR(255),Street VARCHAR(255),Town VARCHAR(255),Semester NUMERIC,CPI DECIMAL(3, 2));
+INSERT INTO STUDENTS VALUES(123,'Amy','Smith',STR_TO_DATE('26-jun-1996','%d-%M-%Y'),'F',8975461234,'asa@.gmail.com',20,'Agra','M.G Road','Shahganj',3,8.4);
+INSERT INTO STUDENTS VALUES(234,'Bob','Johnson',STR_TO_DATE('7-Apr-1995','%d-%M-%Y'),'M',8978948646,'abc@.gmail.com',21,'Firozpur','M.L Road','ahmednagar',2,8.8);
+INSERT INTO STUDENTS VALUES(345,'Craig','Williams',STR_TO_DATE('4-Feb-1995','%d-%M-%Y'),'M',8968954646,'ade@gmail.com',17,'Firozabad','Agra Road','Tundla',2,8.9);
+INSERT INTO STUDENTS VALUES(456,'Doris','Brown',STR_TO_DATE('24-Jul-1997','%d-%M-%Y'),'F',8975463334,'abd@gmail.com',19,'Varanasi','Ganga road','damanagar',2,7.7);
+INSERT INTO STUDENTS VALUES(567,'EDward','Jones',STR_TO_DATE('21-Dec-1996','%d-%M-%Y'),'M',8978947859,'axe@gmail.com',16,'Banda','G.t Road','Raniganj',4,8.0);
+INSERT INTO STUDENTS VALUES(678,'Fay','Miller',STR_TO_DATE('27-Aug-1996','%d-%M-%Y'),'M',8945687924,'aqw@gmail.com',18,'Mirzapur','tilak Road','Chittoor',3,8.3);
+INSERT INTO STUDENTS VALUES(789,'Gary','Davis',STR_TO_DATE('8-Oct-1996','%d-%M-%Y'),'M',8971256859,'asd@gmail.com',14,'Sitapur','B.n Road','Ayodhya',2,8.5);
+INSERT INTO STUDENTS VALUES(987,'Helen','Garica',STR_TO_DATE('27-Mar-1997','%d-%M-%Y'),'F',8975447834,'avf@gmail.com',15,'Saharanpur','13th Street','Anantapur',3,7.7);
+INSERT INTO STUDENTS VALUES(876,'Irene','Rodriguez',STR_TO_DATE('7-Mar-1996','%d-%M-%Y'),'F',6314313561,'agr@gmail.com',11,'Gangtok','Ghaziabad','Moradabad',4,9.1);
+INSERT INTO STUDENTS VALUES(765,'Jay','Wilson',STR_TO_DATE('8-Aug-1998','%d-%M-%Y'),'M',6354512128,'ang@gmail.com',12,'Noida','S.N Road','Kanpur',3,9.0);

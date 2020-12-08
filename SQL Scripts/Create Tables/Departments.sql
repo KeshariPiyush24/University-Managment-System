@@ -1,5 +1,11 @@
-CREATE TABLE DEPARTMENTS
-(
-    DEPT_ID NUMERIC(6) PRIMARY KEY,
-    DEPT_NAME VARCHAR(255)
-);
+CREATE TABLE DEPARTMENTS(DEPT_ID NUMERIC(6) PRIMARY KEY,DEPT_NAME VARCHAR(255));
+insert into DEPARTMENTS values(145623,'Applied Social Sciences and Humanities');
+insert into DEPARTMENTS values(221534,'Arts');
+insert into DEPARTMENTS values(348675,'Commerce & Business Studies');
+insert into DEPARTMENTS values(436556,'Education');
+insert into DEPARTMENTS values(512567,'Interdisciplinary & Applied Sciences');
+insert into DEPARTMENTS values(677648,'Management Studies');
+insert into DEPARTMENTS values(712589,'Mathematical Sciences');
+insert into DEPARTMENTS values(988947,'Medical Sciences');
+insert into DEPARTMENTS values(871346,'Technology');
+insert into DEPARTMENTS values(764265,'Affiliated Faculties');

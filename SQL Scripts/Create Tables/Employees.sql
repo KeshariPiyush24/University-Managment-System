@@ -1,10 +1,11 @@
-CREATE TABLE EMPLOYEES
-(
-    Emp_ID NUMERIC(6) PRIMARY KEY,
-    Emp_NAME VARCHAR(255),
-    Gender CHAR(1),
-    Date_Of_Birth DATE,
-    Department NUMERIC(6),
-    Salary NUMERIC(6),
-    FOREIGN KEY (DEPARTMENT) REFERENCES DEPARTMENTS(DEPT_ID)
-);
+CREATE TABLE EMPLOYEES(Emp_ID NUMERIC(6) PRIMARY KEY,Emp_NAME VARCHAR(255),Gender CHAR(1),Date_Of_Birth DATE,Department NUMERIC(6),Salary NUMERIC(6),FOREIGN KEY (DEPARTMENT) REFERENCES DEPARTMENTS(DEPT_ID));
+insert into EMPLOYEES values(145623,'Karan', 'M', STR_TO_DATE('22-jun-1996','%d-%M-%Y'),436556,35000);
+insert into EMPLOYEES values(221534,'Yash', 'M', STR_TO_DATE('8-Apr-1995','%d-%M-%Y'),221534,40000);
+insert into EMPLOYEES values(325475,'Kasis', 'M', STR_TO_DATE('3-Feb-1995','%d-%M-%Y'),436556,40000);
+insert into EMPLOYEES values(451326,'Rohani', 'F', STR_TO_DATE('27-Jul-1997','%d-%M-%Y'),871346,45000);
+insert into EMPLOYEES values(565767,'Anamika', 'F', STR_TO_DATE('20-Dec-1996','%d-%M-%Y'),871346,50000);
+insert into EMPLOYEES values(625648,'Samar', 'M', STR_TO_DATE('21-Aug-1996','%d-%M-%Y'),436556,55000);
+insert into EMPLOYEES values(715689,'Pooja', 'F', STR_TO_DATE('10-Oct-1996','%d-%M-%Y'),221534,40000);
+insert into EMPLOYEES values(988947,'Shivam', 'M', STR_TO_DATE('22-Mar-1997','%d-%M-%Y'),436556,35000);
+insert into EMPLOYEES values(111346,'Ankur', 'M', STR_TO_DATE('11-Mar-1996','%d-%M-%Y'),221534,50000);
+insert into EMPLOYEES values(768565,'Aditya', 'M', STR_TO_DATE('10-Aug-1998','%d-%M-%Y'),221534,52000);

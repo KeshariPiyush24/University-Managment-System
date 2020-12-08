@@ -1,9 +1,11 @@
-CREATE TABLE REPORT_CARD
-(
-    Student_ID NUMERIC(8),
-    Course_ID NUMERIC(6),
-    Midterm_Marks DECIMAL(5,2),
-    Endterm_Marks DECIMAL(5,2),
-    FOREIGN KEY(Student_ID) REFERENCES STUDENTS(Student_ID) ON DELETE CASCADE,
-    FOREIGN KEY(Course_ID) REFERENCES COURSES(Course_ID) ON DELETE CASCADE
-);
+CREATE TABLE REPORT_CARD(Student_ID NUMERIC(8),Course_ID NUMERIC(6),Midterm_Marks DECIMAL(5,2),Endterm_Marks DECIMAL(5,2),FOREIGN KEY(Student_ID) REFERENCES STUDENTS(Student_ID) ON DELETE CASCADE,FOREIGN KEY(Course_ID) REFERENCES COURSES(Course_ID) ON DELETE CASCADE);
+insert into REPORT_CARD values(123,15523,8.4,7.7);
+insert into REPORT_CARD values(234,15523,8.8,7.9);
+insert into REPORT_CARD values(345,34785,8.1,8.2);
+insert into REPORT_CARD values(456,56799,8.2,8.5);
+insert into REPORT_CARD values(567,67815,7.7,8.5);
+insert into REPORT_CARD values(678,98798,7.9,8.2);
+insert into REPORT_CARD values(789,15523,9.0,8.6);
+insert into REPORT_CARD values(987,34785,8.3,7.8);
+insert into REPORT_CARD values(876,45687,8.0,7.9);
+insert into REPORT_CARD values(765,67815,8.7,8.2);
