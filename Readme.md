@@ -8,11 +8,12 @@ Project assigned by Dr Neeraj Gupta for course DBMS(3<sup>rd</sup> sem).
 
 # Dependencies
 1. **Tools**
-    - [Draw.io](https://github.com/jgraph/drawio-desktop/releases)
-    - [Pycharm](https://www.jetbrains.com/pycharm/)
-    - [VsCode](https://code.visualstudio.com/)
     - [Python3](https://python.org)
     - [MySQL Server](https://dev.mysql.com/downloads/mysql/)
+    - [VsCode](https://code.visualstudio.com/)
+    - [Draw.io](https://github.com/jgraph/drawio-desktop/releases)
+    - [Pycharm](https://www.jetbrains.com/pycharm/)
+    - [DataGrip](https://www.jetbrains.com/datagrip/)
     
 2. **Drivers**
     - [Connector/Python](https://dev.mysql.com/downloads/connector/python/)
