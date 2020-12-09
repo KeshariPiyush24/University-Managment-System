@@ -52,5 +52,26 @@ Project assigned by Dr Neeraj Gupta for course DBMS(3<sup>rd</sup> sem).
 
 <br>
 
+# How to section?
+
+## Step 1
+Before proceeding make sure you have installed following dependencies:
+- [Python3](https://python.org)
+- [MySQL Server](https://dev.mysql.com/downloads/mysql/)
+
+## Step 2
+Clone this project into your system by running following command:
+```
+git clone https://github.com/insane-banda/University-Managment-System.git
+```
+## Step 3
+Launch command prompt in the project directory and run following command:
+```
+python setup.py
+```
+
+## Step 4
+Sitback and relax everything you need you already have:)
+
 # Er Diagram
 ![Er Diagram](./ErDiagram.svg)
