@@ -1,4 +1,4 @@
 mysql-connector
 notebook
 runipy
-pandas
+pandas==1.19.3
